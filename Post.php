@@ -7,7 +7,7 @@ class Post
 {
   protected $title, $author;
 
-  public function __construct(string $name, Author $author)
+  public function __construct(string $title, Author $author)
   {
     $this->title = $title;
     $this->author = $author;
